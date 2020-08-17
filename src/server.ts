@@ -4,7 +4,7 @@ import routes from './routes';
 
 const app = express(); // Inicia aplicação
 
-app.use(cors);
+app.use(cors());
 
 app.use(express.json()); // Faz conversão para o express entender json
 
